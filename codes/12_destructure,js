@@ -1,0 +1,21 @@
+const obj1 = {
+    name: "saksham",
+    fullname: "saksham kumar",
+    id: "2798"
+}
+
+// console.log(obj1.name);
+
+// Destructure
+const { fullname } = obj1
+console.log(fullname);
+const { fullname: fname } = obj1
+console.log(fname);
+
+//API's
+
+// {
+//     "name": "saksham",
+//     "email": "saksham",
+//     "id": "7392"
+// }
